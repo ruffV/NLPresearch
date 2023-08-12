@@ -5,6 +5,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 nltk.download('punkt')  # Download the Punkt tokenizer models (only needed once)
+# testing
 
 def read_jokes_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
